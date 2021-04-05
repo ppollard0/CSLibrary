@@ -1,0 +1,42 @@
+Grading Rubric for Lab 7: SinglyLinkedListTests
+
+1)	The correct package structure is used.
+	2 points – The List interface, Node class, and SinglyLinkedList code files are nested in the cs.cscollections package.
+	1 point – The package structure differs or the packages are named differently but packages are used.
+	0 points – No packages are used.
+
+2)	The List interface is defined and defines methods:
+    1. append
+    2. prepend
+    3. insertAfter
+    4. remove
+    5. search
+    6. isEmpty
+    7. getLength
+	4 points – Signatures for all these method are defined in the interface.
+3 points – Signatures for the methods append, prepend, remove, isEmpty, and getLength are defined, but not the other methods.
+2 points – Signatures for part of the methods in the above list are defined but not all are defined.
+1 point – Signatures for methods are defined, but not the ones in the list above.
+0 point – The List interface is not defined.
+
+3)	The Node class is defined.
+	4 points – The node class implements three constructors, getData, setData, getNext, and setNext.  The node class has a generic parameter.
+	3 points – The Node class does not have a generic parameter, but implements the correct constructors and accessor methods.
+	2 points - The node class implements two of the constructors, but not all three.
+	1 point – The instance variables do not have private visibility.
+	0 points – The class is not implemented.
+
+4)	The SinglyLinkedList implements the List interface. (This means the class has the declaration implements List attached to it.)
+	2 points – The SinglyLinkedList class implements the List interface.
+	0 points – The SinglyLinkedList class does not implement the List interface.
+
+5)	SinglyLinkedList implements append, prepend, isEmpty, and getLength.
+	4 points – Each method is implemented correctly.
+	1 point – For each method implemented correctly.
+
+6) 	The SinglyLinkedList class is tested.
+	2 points – The SinglyLinkedList class has a main method that contains the testing code.
+            Plus
+	2 point for testing for append, prepend, isEmpty, and getLength
+	1 point for test part of these.
+	0 points – No testing done.
